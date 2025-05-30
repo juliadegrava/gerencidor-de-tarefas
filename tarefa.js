@@ -3,33 +3,44 @@ let tarefas = ['Estudar JavaScript', 'Fazer exercícios de matemática', 'Lavar 
 
 tarefas.push('Fazer a unha', 'Lavar o cabelo');
 console.log("Lista de tarefas atualizada:");
-console.table(tarefas)
-console.log("________________")
+console.table(tarefas);
+console.log("________________");
 
 // Etapa 2
 let removerUltimaTarefa = tarefas.pop();
 console.log(`Última tarefa foi removida: ${removerUltimaTarefa}`);
-console.log("________________")
+console.log("________________");
 
 // Etapa 3
 tarefas.unshift("Passar aspirador de pó");
 let tarefaNoInicio = tarefas.unshift();
 console.log(`Lista com nova tarefa adicionada no ínico: ${tarefas}`);
-console.log("________________")
+console.log("________________");
 
 // Etapa 4
 let removerPrimeiraTarefa = tarefas.shift();
 console.log(`Primeira tarefa removida: ${removerPrimeiraTarefa}`);
-console.log("________________")
+console.log("________________");
 
 // Etapa 5
 console.log(`A lista de tarefas inclui 'Ir à academia'? ${tarefas.includes('Ir à academia')}`);
-console.log("________________")
+console.log("________________");
 
 // Etapa 6
 tarefas.join(", ");
 console.log(tarefas);
-console.log("________________")
+console.log("________________");
 
 // Etapa 7
 console.log(`Tarefas extraídas do índice 2 ao 4: ${tarefas.slice(2, 5)}`);
+console.log("________________");
+
+// Etapa 8
+console.log("Lista de tarefas inicial:");
+console.table(tarefas);
+
+let tarefaAlterada = tarefas.splice(3, 1, 'Varrer a casa');
+console.log(`Tarefa alterada: ${tarefaAlterada}`);
+console.log("Lista de tarefas atualizada:");
+console.table(tarefas);
+console.log("________________")
