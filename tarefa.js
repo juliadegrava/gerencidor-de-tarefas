@@ -44,3 +44,10 @@ console.log(`Tarefa alterada: ${tarefaAlterada}`);
 console.log("Lista de tarefas atualizada:");
 console.table(tarefas);
 console.log("________________")
+
+// Etapa 9
+let novasTarefas = ['Passar aspirador de pó', 'Lavar o cabelo', 'Colocar gasolisa no carro', 'Calibrar o pneu', 'Levar pet no veterinário']
+console.log("Lista de novas tarefas:");
+console.table(novasTarefas);
+console.log(`Lista de tarefas combindas: ${tarefas.concat(novasTarefas).join(', ')}`);
+console.log("________________")
