@@ -16,3 +16,6 @@ console.log(`Lista com nova tarefa adicionada no ínico: ${tarefas}`);
 // Etapa 4
 let removerPrimeiraTarefa = tarefas.shift();
 console.log(`Primeira tarefa removida: ${removerPrimeiraTarefa}`);
+
+// Etapa 5
+console.log(`A lista de tarefas inclui 'Ir à academia'? ${tarefas.includes('Ir à academia')}`);
