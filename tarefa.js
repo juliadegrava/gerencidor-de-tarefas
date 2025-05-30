@@ -49,5 +49,12 @@ console.log("________________")
 let novasTarefas = ['Passar aspirador de pó', 'Lavar o cabelo', 'Colocar gasolisa no carro', 'Calibrar o pneu', 'Levar pet no veterinário']
 console.log("Lista de novas tarefas:");
 console.table(novasTarefas);
-console.log(`Lista de tarefas combindas: ${tarefas.concat(novasTarefas).join(', ')}`);
+let tarefasCombinadas = ${tarefas.concat(novasTarefas).join(', ')}
+console.log(`Lista de tarefas combindas: ${tarefasCombinadas}`);
 console.log("________________")
+
+// Etapa 10
+let palavraAdicionada = "Fazer ";
+let novaLista = novasTarefas.map(tarefa => `${palavraAdicionada} ${tarefa}`);
+
+console.log(novaLista);
