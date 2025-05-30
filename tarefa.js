@@ -30,3 +30,6 @@ console.log("________________")
 tarefas.join(", ");
 console.log(tarefas);
 console.log("________________")
+
+// Etapa 7
+console.log(`Tarefas extraídas do índice 2 ao 4: ${tarefas.slice(2, 5)}`);
