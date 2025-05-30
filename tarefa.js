@@ -12,3 +12,7 @@ console.log(`Última tarefa foi removida: ${removerUltimaTarefa}`);
 tarefas.unshift("Passar aspirador de pó");
 let tarefaNoInicio = tarefas.unshift();
 console.log(`Lista com nova tarefa adicionada no ínico: ${tarefas}`);
+
+// Etapa 4
+let removerPrimeiraTarefa = tarefas.shift();
+console.log(`Primeira tarefa removida: ${removerPrimeiraTarefa}`);
